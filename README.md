@@ -31,8 +31,7 @@ Tujuan utama dari proyek ini adalah untuk mendemonstrasikan pemahaman dasar meng
 ## 📖 How to Access
 
 Website ini telah dihosting secara publik. Anda dapat mengaksesnya melalui tautan berikut:
-[Link GitHub Pages Kamu Di Sini]
-_(Ganti teks dalam kurung dengan link dari menu Settings > Pages di GitHub kamu)_
+https://github.com/Goodgame-Star
 
 ---
 
