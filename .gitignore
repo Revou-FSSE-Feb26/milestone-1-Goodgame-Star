@@ -1,0 +1,19 @@
+# Folder Latihan & Modul (Agar tidak ikut ter-push ke Milestone)
+modul1/
+modul2/
+modul3/
+fake_product_detector/
+collabolator/
+exercise/
+
+# IDE & Editor (File sampah dari VS Code)
+.vscode/
+*.code-workspace
+
+# OS Metadata (File sampah dari Windows/Mac)
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.log
+tmp/

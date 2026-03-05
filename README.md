@@ -14,6 +14,7 @@ Tujuan utama dari proyek ini adalah untuk mendemonstrasikan pemahaman dasar meng
 - **Home Section**: Perkenalan singkat sebagai Aspirant Software Engineer.
 - **About Me**: Informasi mengenai latar belakang pendidikan di Universitas Ibnu Sina.
 - **Project Placeholders**: Bagian khusus untuk menampilkan proyek seperti _Fake Product Detector_.
+- **Data Management Placeholder**: Menampilkan kemampuan dasar dalam mengelola tabel data menggunakan Supabase.
 - **Accessible Contact Form**: Formulir kontak dengan label yang jelas dan validasi input dasar (required).
 - **Social Connect**: Tabel kontak yang rapi untuk menghubungkan pengunjung ke LinkedIn, Instagram, dan Email.
 
