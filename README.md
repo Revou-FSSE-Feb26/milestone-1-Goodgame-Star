@@ -30,7 +30,7 @@ Tujuan utama dari proyek ini adalah untuk mendemonstrasikan pemahaman dasar meng
 
 ## 📖 How to Access
 
-Website ini telah dihosting secara publik. Anda dapat mengaksesnya melalui tautan berikut:
+Anda dapat mengaksesnya melalui tautan berikut:
 https://github.com/Goodgame-Star
 
 ---
