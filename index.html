@@ -7,108 +7,7 @@
       name="description"
       content="Portfolio Riyan Fajri Ramadhan - Aspirant Full Stack Software Engineer di Batam"
     />
-    <style>
-  /* Pengaturan Background, Font dan Warna Text */
-  body {
-    background-color: #fafafa;
-    color: #222;
-    font-family: sans-serif;
-    padding: 0;
-  }
-
-  /* Memberikan Warna Header Background dan */
-  header {
-    background: #333;
-    color: white;
-    padding: 1rem 0;
-  }
-
-  nav ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-
-  nav ul li {
-    display: inline;
-    margin: 0 15px;
-  }
-
-  nav ul li a {
-    color: #ccc;
-    text-decoration: none;
-    font-size: 0.9rem;
-  }
-
-  nav ul li a:hover {
-    color: #fff;
-    text-decoration: underline;
-  }
-
-  /* Konten Tengah */
-  main {
-    width: 90%;
-    max-width: 850px;
-    margin: 20px auto;
-    background: white;
-    padding: 30px;
-    border: 1px solid #ddd; /* Kasih garis tipis biar keliatan strukturnya */
-  }
-
-  /* Judul-judul */
-  h1, h2, h3 {
-    color: #111;
-  }
-
-  /* Bagian Proyek */
-  article {
-    border-left: 3px solid #333; /* Gaya simpel buat nandain tiap proyek */
-    padding-left: 15px;
-    margin-bottom: 30px;
-  }
-
-  /* Tabel Kontak - Biar nggak kaku, garisnya tipis aja */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-  }
-
-  th, td {
-    border-bottom: 1px solid #eee;
-    padding: 10px;
-    text-align: left;
-  }
-
-  /* Form Kontak - Biar kotak-kotak biasa aja */
-  input, textarea {
-    width: 95%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #bbb;
-  }
-
-  button {
-    background: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-
-  button:hover {
-    background: #555;
-  }
-
-  footer {
-    text-align: center;
-    font-size: 0.8rem;
-    color: #777;
-    margin: 40px 0;
-  }
-</style>
-
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
 
@@ -127,19 +26,19 @@
 
     <main>
       <!-- HOME -->
-      <section id="home">
-        <header>
+      <section id="home" class="hero-section">
+        <div class="profile-container">
           <img
-            src="link-foto-lu.jpg"
+            src="Public/Asset/Riyan.jpeg"
             alt="Foto Riyan Fajri Ramadhan"
-            width="200"
-            style="border-radius: 50%"
+            class="profile-img"
           />
-          <h1>Halo, Saya Riyan Fajri Ramadhan</h1>
-          <p>Melaju Tak Terbatas Dan Melampauinya</p>
-        </header>
+          <div class="hero-text">
+            <h1>Halo, Saya Riyan Fajri Ramadhan</h1>
+            <p>Melaju Tak Terbatas Dan Melampauinya</p>
+          </div>
+        </div>
       </section>
-
       <hr />
 
       <!-- ABOUT -->
@@ -218,25 +117,25 @@
       <!-- CONTACT -->
       <section id="contact">
         <h2>Kontak Saya</h2>
+        <div class="table-container">
+          <table border="1" style="width: 100%; border-collapse: collapse">
+            <thead>
+              <tr>
+                <th>Email</th>
+                <th>LinkedIn</th>
+                <th>Instagram</th>
+              </tr>
+            </thead>
 
-        <table border="1" style="width: 100%; border-collapse: collapse">
-          <thead>
-            <tr>
-              <th>Email</th>
-              <th>LinkedIn</th>
-              <th>Instagram</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>riyan.fajri.ramadhan@gmail.com</td>
-              <td>linkedin.com/in/riyanfajriramadhan</td>
-              <td>@riyanfajri512</td>
-            </tr>
-          </tbody>
-        </table>
-
+            <tbody>
+              <tr>
+                <td>riyan.fajri.ramadhan@gmail.com</td>
+                <td>linkedin.com/in/riyanfajriramadhan</td>
+                <td>@riyanfajri512</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <hr />
 
         <form>
