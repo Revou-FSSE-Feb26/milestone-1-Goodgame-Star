@@ -1,44 +1,43 @@
-# Personal Portfolio - Milestone Project 1
+# Personal Portfolio - Riyan Fajri Ramadhan
 
-## 📝 Overview
+**Milestone Project: Module 1 & 2 - Responsive Web Pages**
 
-Ini adalah website portofolio pribadi yang dibangun sebagai bagian dari **Project Milestone 1** di program Full Stack Software Engineering RevoU. Website ini berfungsi sebagai resume digital untuk memperkenalkan diri, memamerkan proyek yang sedang dikerjakan, dan menyediakan saluran komunikasi bagi calon kolaborator atau perekrut.
+## 🌟 Overview
 
-Tujuan utama dari proyek ini adalah untuk mendemonstrasikan pemahaman dasar mengenai struktur HTML semantik dan aksesibilitas web.
-
----
+Website ini adalah portofolio pribadi yang dirancang untuk membangun _online presence_ saya sebagai **Aspirant Full Stack Software Engineer**. Proyek ini menunjukkan kemampuan saya dalam menyusun struktur web yang semantik serta menerapkan desain responsif menggunakan CSS modern.
 
 ## 🚀 Features
 
-- **Semantic HTML Structure**: Menggunakan tag HTML5 seperti `<header>`, `<nav>`, `<main>`, `<section>`, dan `<article>` untuk struktur yang lebih bermakna dan ramah SEO.
-- **Home Section**: Perkenalan singkat sebagai Aspirant Software Engineer.
-- **About Me**: Informasi mengenai latar belakang pendidikan di Universitas Ibnu Sina.
-- **Project Placeholders**: Bagian khusus untuk menampilkan proyek seperti _Fake Product Detector_.
-- **Data Management Placeholder**: Menampilkan kemampuan dasar dalam mengelola tabel data menggunakan Supabase.
-- **Accessible Contact Form**: Formulir kontak dengan label yang jelas dan validasi input dasar (required).
-- **Social Connect**: Tabel kontak yang rapi untuk menghubungkan pengunjung ke LinkedIn, Instagram, dan Email.
-
----
+- **Semantic HTML5**: Menggunakan elemen struktur yang tepat untuk aksesibilitas dan SEO.
+- **Responsive Design**: Layout yang beradaptasi dengan berbagai ukuran layar (Desktop & Mobile) menggunakan Media Queries.
+- **Modern Layouting**: Implementasi **Flexbox** untuk navigasi dan penyelarasan elemen profil.
+- **Interactive UI**: Efek hover pada kartu proyek dan navigasi untuk pengalaman pengguna yang lebih dinamis.
+- **Functional Contact Form**: Formulir kontak dengan validasi dasar dan label aksesibilitas.
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Digunakan untuk membangun kerangka dan struktur konten website.
-- **Git & GitHub**: Digunakan untuk manajemen versi kode (version control) dan hosting melalui GitHub Pages.
-- **VS Code**: Editor teks utama yang dikonfigurasi dengan Prettier untuk menjaga kerapian kode.
+- **HTML5**: Struktur konten dan elemen semantik.
+- **CSS3**: Styling, CSS Variables, Flexbox, dan Media Queries.
+- **Google Fonts / Web Safe Fonts**: Tipografi yang bersih untuk keterbacaan yang optimal.
+- **GitHub Pages**: Hosting dan deployment.
 
----
+## 📸 Demo & Screenshots
 
-## 📖 How to Access
+- **Link Live Website**: [Klik di sini untuk melihat](https://github.com/Revou-FSSE-Feb26/milestone-1-Goodgame-Star.git)
 
-Anda dapat mengaksesnya melalui tautan berikut:
-https://github.com/Goodgame-Star
+| Desktop View                                  | Mobile View                                  |
+| :-------------------------------------------- | :------------------------------------------- |
+| ![Desktop Screenshot](Public/Asset/image.png) | ![Mobile Screenshot](Public/Asset/image.png) |
 
----
+_(GAMBAR KETIKA MOBILE DAN TAMPILAN DEKSTOP)_.
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 .
-├── index.html     # File utama website
-└── README.md      # Dokumentasi proyek
+├── Public/
+|    └── Asset/          # Foto profil dan aset gambar
+├── index.html           # Struktur utama website
+├── style.css            # Styling dan desain responsif
+
 ```
